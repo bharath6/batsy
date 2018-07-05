@@ -1,0 +1,22 @@
+.parent{
+display:flex;
+flex--disction:row7
+justify-content:center;
+}
+.childOne{
+  width:30%;
+  padding: 2%;
+  border: 1px solid #ddd;
+  background-color: rgba(31,60,206,0.29);
+  border: 3px solid rgba(63,206,41,0.29);
+  margin:2%;
+}
+.childTwo
+{
+  width:70%;
+  text-shadow: 1px 2px 2px rgba(206,53,23,0.96);
+  box-shadow: 2px 2px 7px 1px rgba(206,206,14,0.96);
+  padding: 2%;
+  border: 1px solid #ddd;
+  margin:2%;
+}
