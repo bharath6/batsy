@@ -20,7 +20,12 @@ career(data.career);
 var child2=document.querySelector(".childTwo");
 function career(careerInfo)
 {
+var carrerHeading=document.createElement("h3");
 var ch = document.createElement("p");
+ch.textContent=careerInfo.info;
+child2.appendChild(careerheading);
+carrerHeading.textContent="CAREER OBJECTIVE";
+var careerHr=document.createElement("p");
 ch.textContent=careerInfo.info;
 child2.appendChild(ch);
 }
