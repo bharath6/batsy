@@ -1,26 +1,61 @@
-.parent
-{
-  display:flex;
-  flex-direction:row;
-  justify-content:center;
+.parent{
+  display: flex;
+  flex-direction:column;
+  justify-content:flex-end;
 }
 .childOne{
-  width:30%;
-  padding:2%;
-  border:1px solid red;
-  margin:2%;
-  box-shadow:3px 3px 3px #ddd;
-  border-radius:20px;
+  width: 30%;
+  padding: 2%;
+  border:1px solid #ddd;
+  box-shadow: 3px 3px 3px grey;
+  border-radius: 20px;
+  background-color: gray;
+  margin: 2%;
 }
 .childTwo{
-  width:70%;
-  padding:2%;
-  border:1px solid blue;
-  margin:2%;
-  border-radius:20px;
+  width: 30%;
+  padding: 2%;
+  border:1px solid #ddd;
+  box-shadow: 3px 3px 3px pink;
+  border-radius: 20px;
+  background-color: tomato;
+  margin: 2%;
 }
+
+.image{
+  width: 100%;
+  padding: 2%;
+  margin: 2%;
+  border:1px solid #ddd;
+  border-radius: 40px
+
+}
+
 img{
   display:block;
-  margin-left:auto;
   margin-right:auto;
+  margin-left:auto;
+}
+/* for small screen*/
+@media only screen and (min-width:481px) and (max-width:769px)
+{
+  .parent{
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+  }
+  .childOne{
+    width: 100%;
+    padding: 4%;
+    border:1px solid #ddd;
+    box shadow:3px 3px 3px #ddd;
+    border-radius: 20px;
+    margin: 2%;
+  }
+  .childTwo{
+    width: 100%;
+    padding: 4%;
+    border:1px solid #ddd;
+    margin: 2%;
+  }
 }
